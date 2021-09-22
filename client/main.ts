@@ -1,4 +1,6 @@
+import { HomeComponent } from "home/home.component";
 import { Router } from "node_modules/vldom/router";
+import { PageComponent } from "page.component";
 
 export class Application {
     static router: Router;
