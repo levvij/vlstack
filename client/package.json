@@ -1,0 +1,8 @@
+{
+    "name": "client-$${{name}}",
+    "dependencies": {
+        "systemjs": "^5.0.0",
+        "vldom": "^5.4.0",
+        "vllayout": "^1.13.1"
+    }
+}
