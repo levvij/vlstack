@@ -1,5 +1,7 @@
 import { DbClient } from "vlquery"; 
 import { Inject, StaticFileRoute } from "vlserver";
+import { ManagedServer } from "./managed/server";
+import { DbContext } from "./managed/database";
 
 import * as path from "path";
 
