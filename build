@@ -12,6 +12,6 @@ cd client
     npx vldom compile
 
     cd assets
-        sass main.scss ../dist/styles.css
+        sass styles.scss ../dist/styles.css
     cd ..
 cd ..
