@@ -1,4 +1,4 @@
-import { DbClient } from "vlquery"; 
+import { DbClient, RunContext } from "vlquery"; 
 import { Inject, StaticFileRoute } from "vlserver";
 import { ManagedServer } from "./managed/server";
 import { DbContext } from "./managed/database";
