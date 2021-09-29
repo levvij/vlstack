@@ -16,7 +16,7 @@ DbClient.connectedClient.connect().then(async => {
 
     app.createInjector = context => new Inject({
         Context: context,
-        DbContext: context
+        DbContext: db
     });
 
     app.use(new StaticFileRoute("/scripts", path.join(__dirname, "..", "..", "client", "dist", "scripts.js")));
