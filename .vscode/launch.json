@@ -9,7 +9,7 @@
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"program": "${workspaceFolder}/server/dist/styles.js",
+			"program": "${workspaceFolder}/server/dist/main.js",
 			"cwd": "${workspaceFolder}/server",
 			"outFiles": [
 				"${workspaceFolder}/**/*.js"
