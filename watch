@@ -12,3 +12,7 @@ cd client
         nodemon -e scss -x "sass styles.scss ../dist/styles.css"
     cd ..
 cd ..
+
+cd server
+    PGHOST=$${{dbServer}} PGUSER=$${{dbName}} PGPASSWORD=$${{dbName}} PGDATABASE=$${{dbName}} nodemon dist/main.js
+cd ..
